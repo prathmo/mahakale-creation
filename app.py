@@ -14,7 +14,7 @@ st.markdown("<h1 style='text-align: center;'>🌈 Mahakale Creation 🌈</h1>", 
 st.markdown("### A Mahakale Created website")
 
 # Columns
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.image("assets/hanuman.png", caption="Jai Shree Ram 🙏", use_column_width=True)
@@ -28,6 +28,9 @@ with col2:
 
 with col3:
     st.image("assets/shiv.png", caption="Har Har Mahadev 🙏", use_column_width=True)
+
+with col4:
+    st.image("assets/shiva.png", caption="Har Har Mahadev 🙏", use_column_width=True)
 
 # Footer
 st.markdown("---")
